@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SecondActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/chatEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#ffffff"
+            android:hint="@string/chat_with_me"
+            android:inputType="textShortMessage"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <ImageButton
+            android:id="@+id/sendBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#26A69A"
+            android:src="@drawable/sendarrow"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linLayout"
+        android:background="#202124"
+        tools:itemCount="20"
+        tools:listitem="@layout/chat_item" /><View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#000000"
+        android:id="@+id/dark_divider"/>
+
+
+</RelativeLayout>
