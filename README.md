@@ -12,10 +12,10 @@ Android Development using ![KOTLIN](https://img.shields.io/badge/Kotlin-0095D5?&
 
 ## Screenshots
 <p float="left">
-  <img src="sshotandvid/s1.jpg" width="250">
-  <img src = "sshotandvid/s2.jpg"  width = "250" >
-  <img src="sshotandvid/s3.jpg" width="250">
-  <img src = "sshotandvid/s4.jpg"  width = "250" >
+  <img src="sshotandvid/s1.jpg" width="235">
+  <img src = "sshotandvid/s2.jpg"  width = "235" >
+  <img src="sshotandvid/s3.jpg" width="235">
+  <img src = "sshotandvid/s4.jpg"  width = "235" >
 </p>
 
 ## Demo Video
