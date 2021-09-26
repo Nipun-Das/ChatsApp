@@ -1,6 +1,6 @@
 # ChatsApp
 
-#DEVELOPER DAYS **FINAL PROJECT SUBMISSION**<br/>
+**DEVELOPER DAYS FINAL PROJECT SUBMISSION**<br/>
 
 A Chat Bot App with an elegant UI</br>
 
