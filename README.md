@@ -7,7 +7,7 @@
 - Tried to replicate some functionalities of the Google Assistant.
 
 The App is created as a part of Developer Days 5-week long event.<br/>
-Android Development using ![KOTLIN](https://img.shields.io/badge/Kotlin-0095D5?&style=flat-square&logo=kotlin&logoColor=white).<br/>
+Android Development using  ![KOTLIN](https://img.shields.io/badge/Kotlin-0095D5?&style=flat-square&logo=kotlin&logoColor=white)<br/>
 
 
 ## Screenshots
